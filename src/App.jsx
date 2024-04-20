@@ -19,6 +19,12 @@ const App = () => {
             <ProductImage />
             <Features />
             <UserFeedback />
+            <Hero content={{
+                image: 'gif.png',
+                title: 'Questions?',
+                title2: "Let's talk",
+                description: 'Contact us through our 24/7 live chat. Were always happy to help!',
+            }} />
         </div>
     )
 }
