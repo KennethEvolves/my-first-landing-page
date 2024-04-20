@@ -4,6 +4,7 @@ import Logos from './components/Logos';
 import ProductImage from './components/ProductImage';
 import Features from './components/Features';
 import UserFeedback from './components/UserFeedback';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -25,6 +26,7 @@ const App = () => {
                 title2: "Let's talk",
                 description: 'Contact us through our 24/7 live chat. Were always happy to help!',
             }} />
+            <Footer />
         </div>
     )
 }
