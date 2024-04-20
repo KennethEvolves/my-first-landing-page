@@ -1,5 +1,6 @@
 import TopBar from './components/TopBar';
 import Hero from './components/Hero';
+import Logos from './components/Logos';
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
                 title2: 'Page Template',
                 description: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'
             }} />
+            <Logos />
         </div>
     )
 }
