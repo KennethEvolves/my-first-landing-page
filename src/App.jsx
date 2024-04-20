@@ -1,7 +1,10 @@
+import TopBar from './components/TopBar';
 
 const App = () => {
     return (
-        <h1>Hello World</h1>
+        <div className="w-full h-full flex flex-col items-center font-display bg-primarycolor text-white">
+            <TopBar />
+        </div>
     )
 }
 
