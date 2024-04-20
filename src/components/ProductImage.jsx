@@ -1,10 +1,8 @@
 
 const ProductImage = () => {
     return (
-        <div className="h-[700px] flex flex-r justify-center items-center">
-            <div className="h-[500px] bg-y-light rounded-2xl" >
-                <img src="product.png" className="h-full" />
-            </div>
+        <div className="w-[990px] h-[500px] my-[100px] bg-y-light rounded-2xl max-md:h-[180px] max-md:w-[340px] max-lg:h-[350px] max-lg:w-[700px]">
+            <img src="product.png" className="h-full w-full" />
         </div>
     )
 }
