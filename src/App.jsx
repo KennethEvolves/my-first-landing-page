@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Logos from './components/Logos';
 import ProductImage from './components/ProductImage';
 import Features from './components/Features';
+import UserFeedback from './components/UserFeedback';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <Logos />
             <ProductImage />
             <Features />
+            <UserFeedback />
         </div>
     )
 }
