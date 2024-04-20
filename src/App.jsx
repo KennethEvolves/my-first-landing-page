@@ -2,6 +2,7 @@ import TopBar from './components/TopBar';
 import Hero from './components/Hero';
 import Logos from './components/Logos';
 import ProductImage from './components/ProductImage';
+import Features from './components/Features';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             }} />
             <Logos />
             <ProductImage />
+            <Features />
         </div>
     )
 }
