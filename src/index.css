@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hero {
+    @apply w-1080 h-600 flex flex-row justify-around items-center;
+    @apply max-xl:flex-col max-lg:h-[800px] max-xl:h-[950px] max-xl:w-[450px] max-xl:mb-8;
+  }
+
+  .hero-content {
+    @apply max-xl:items-center max-xl:text-center gap-12;
+  }
+}
