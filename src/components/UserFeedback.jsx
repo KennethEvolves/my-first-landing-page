@@ -1,7 +1,7 @@
 const Star = () => {
     return (
         <>
-            <img src="star.png" alt="star-icon" className="w-[20px]" />
+            <img src="png/star.png" alt="star-icon" className="w-[20px]" />
         </>
     )
 }
@@ -17,7 +17,7 @@ const Card = () => {
             </h3>
 
             <article className="h-160px flex flex-r justify-start items-center gap-[20px]">
-                <img src="user-feedback.png" alt="user-feedback" className="w-[80px]" />
+                <img src="png/user-feedback.png" alt="user-feedback" className="w-[80px]" />
                 <div>
                     <h5 className="opacity-40 text-lg text-primarycolor leading-loose">Johnny Owens</h5>
                     <div className="flex flex-row justify-start items-center gap-[5px]">

@@ -16,17 +16,17 @@ const Features = () => {
     return (
         <div className="w-[1080px] h-[348px] p-[50px] mb-[80px] flex flex-r justify-center items-center gap-[110px] max-lg:w-min max-lg:h-min max-lg:flex-col">
             <Card data={{
-                image: 'cards-icon.png',
+                image: 'png/cards-icon.png',
                 title: 'Customizable card',
                 description: 'Custom your own card for your exact incomes and expenses needs.'
             }} />
             <Card data={{
-                image: 'coin-icon.png',
+                image: 'png/coin-icon.png',
                 title: 'No payment fee',
                 description: 'Transfer your payment all over the world with no payment fee.'
             }} />
             <Card data={{
-                image: 'purse-icon.png',
+                image: 'png/purse-icon.png',
                 title: 'All in one place',
                 description: 'The right place to keep your credit and debit cards, boarding passes & more.'
             }} />
