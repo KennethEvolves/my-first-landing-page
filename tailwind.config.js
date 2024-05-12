@@ -9,6 +9,7 @@ export default {
     colors: {
       'purple': '#BFAFF2',
       'yellow': '#F8D57E',
+      'y-dark': '#eab308',
       'y-light': '#FDF5DF',
       'primarycolor': '#2B2B2B',
       'secondarycolor': '#333333',
