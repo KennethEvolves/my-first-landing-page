@@ -20,3 +20,7 @@
 .footer {
   @apply max-xl:grid-rows-3 max-xl:grid-cols-1 max-xl:w-[500px] max-xl:h-[200px] max-xl:gap-y-16;
 }
+
+.userfeedback {
+  @apply max-xl:w-[800px] max-xl:h-[560px] max-xl:px-20 max-xl:mb-16 max-lg:px-12 max-lg:text-center max-lg:h-[760px] max-lg:w-[360px];
+}
