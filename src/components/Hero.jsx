@@ -14,7 +14,7 @@ const Hero = ({ content }) => {
                 <button className="w-44 h-14 bg-yellow text-primarycolor text-lg p-2 rounded-2xl">Get started</button>
             </article>
             <article className="w-500 h-446 bg-secondarycolor rounded-2xl max-lg:w-[350px] max-lg:h-[325px]">
-                <img src={image} className="w-full h-full" />
+                <img src={image} className="w-full h-full rounded-2xl" />
             </article>
         </div >
     )

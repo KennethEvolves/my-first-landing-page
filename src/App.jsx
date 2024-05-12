@@ -6,7 +6,7 @@ const App = () => {
         <div className="h-full flex flex-col items-center font-display bg-primarycolor text-white">
             <TopBar />
             <Hero content={{
-                image: 'header.png',
+                image: 'gifs/hero1.gif',
                 title: 'SaaS Landing',
                 title2: 'Page Template',
                 description: 'This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com'
@@ -16,7 +16,7 @@ const App = () => {
             <Features />
             <UserFeedback />
             <Hero content={{
-                image: 'gif.png',
+                image: 'gifs/hero2.gif',
                 title: 'Questions?',
                 title2: "Let's talk",
                 description: 'Contact us through our 24/7 live chat. Were always happy to help!',
