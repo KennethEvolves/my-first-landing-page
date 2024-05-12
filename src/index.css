@@ -12,3 +12,11 @@
     @apply max-xl:items-center max-xl:text-center gap-12;
   }
 }
+
+.footer-info {
+  @apply max-xl:flex-col max-xl:items-start max-xl:h-[175px] max-xl:w-[200px] max-xl:mt-14 max-xl:ml-12;
+}
+
+.footer {
+  @apply max-xl:grid-rows-3 max-xl:grid-cols-1 max-xl:w-[500px] max-xl:h-[200px] max-xl:gap-y-16;
+}

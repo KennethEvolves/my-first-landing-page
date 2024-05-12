@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 const App = () => {
     return (
-        <div className="w-full h-full flex flex-col items-center font-display bg-primarycolor text-white">
+        <div className="h-full flex flex-col items-center font-display bg-primarycolor text-white">
             <TopBar />
             <Hero content={{
                 image: 'header.png',
