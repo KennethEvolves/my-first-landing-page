@@ -1,10 +1,5 @@
-import TopBar from './components/TopBar';
-import Hero from './components/Hero';
-import Logos from './components/Logos';
-import ProductImage from './components/ProductImage';
-import Features from './components/Features';
-import UserFeedback from './components/UserFeedback';
-import Footer from './components/Footer';
+import { Features, Footer, Hero, Logos, ProductImage, TopBar, UserFeedback } from "./components";
+
 
 const App = () => {
     return (
